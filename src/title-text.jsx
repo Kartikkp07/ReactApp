@@ -17,7 +17,10 @@ function Titlecol1() {
       >
         Get Started
       </button>
-      <button type="button" className="btn rounded-pill btn-light btn-lg ms-2">
+      <button
+        type="button"
+        className="btn rounded-pill btn-light btn-lg text-primary ms-2"
+      >
         <i class="far fa-play-circle playicon"></i> Watch Videos
       </button>
     </div>
