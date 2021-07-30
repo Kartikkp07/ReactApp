@@ -6,35 +6,36 @@
 li {
   margin-top: 0.75rem;
 }
-.nav {
-  color: black;
-  background-color: white;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
 }
 
 /* Navigation Bar */
-
+.nav {
+  color: black;
+  background-color: white;
+  flex-flow: row wrap;
+}
+.nav-icon {
+  width: 100px;
+}
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+.space {
+  margin-right: 400px;
+}
 .navbar {
   padding: 2rem;
 }
 .nav-item {
   padding: 0 18px;
+  margin-top: 0.5rem;
 }
 #navbarSupportedContent {
   font-family: "Ubuntu";
@@ -46,34 +47,44 @@ h6 {
   font-size: 1.2rem;
   font-family: "Ubuntu";
 }
-.playicon {
-  color: blue;
-}
+
 .premium {
   border: 1px blue solid;
   border-radius: 20px;
   color: blue;
   text-decoration: none;
 }
+
+/* TITLE COLUMNS */
 .container-fluid {
   padding: 3% 15% 7%;
-}
-
-.title-image {
-  width: 120%;
-
-  /* margin-top: 10%;
-  margin-left: 20%; */
 }
 
 .left-col {
   margin-bottom: 2rem;
 }
-.footer-img {
-  width: 40px;
-  height: 40px;
-  padding-left: 0.5rem;
+
+.playicon {
+  color: blue;
 }
+
+.title-image {
+  width: 120%;
+}
+
+/* FOOTER */
+.footer {
+  padding-top: 1.5rem;
+}
+.footer-img {
+  font-family: "Ubuntu";
+  color: rgba(0, 0, 0, 0.55);
+  width: 50px;
+  height: 40px;
+  margin-left: 1rem;
+}
+
+/* RESPONSIVENESS */
 @media (max-width: 990px) {
   #title {
     text-align: center;

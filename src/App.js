@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
-import Navbar from "./navbar.jsx";
+import TitlePage from "./titlepage";
 
 export default function App() {
-  return <Navbar />;
+  return <TitlePage />;
 }

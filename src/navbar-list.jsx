@@ -22,6 +22,7 @@ function Navbarlist() {
           </a>
         </li>
 
+        <span className="space"></span>
         <li className="nav-item">
           <a className="nav-link premium" href="google.com">
             Get Early Access
